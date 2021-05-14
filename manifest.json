@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "LastTabStanding",
+  "version": "1.0",
+  "description": "create new tab if only one tab remains open",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
