@@ -1,12 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "LastTabStanding",
+  "name": "AlwaysHaveTab for Kiwi",
   "version": "1.0",
-  "description": "create new tab if only one tab remains open",
+  "description": "Creates a new tab if there are no tabs are open",
+  "icons": {
+	"16": "icon-16.png",
+	"48": "icon-48.png",
+	"128": "icon-128.png"
+   },
   "background": {
     "service_worker": "background.js"
-  },
-  "permissions": [
-    "tabs"
-  ]
-}
+  }
+  }
