@@ -8,8 +8,8 @@
         chrome.tabs.create({ url: 'chrome-search://local-ntp/local-ntp.html', active: false, }, function(tab){
           tabCreated = tab;
         })
-		count = 1;
-		setTimeout(function(){	count = 0;	}, 500);
+            count = 1;
+            setTimeout(function(){ count = 0; }, 500);
       }
     })
   })
