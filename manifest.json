@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "AlwaysHaveTab for Kiwi",
   "version": "1.0",
-  "description": "Creates a new tab if there are no tabs are open",
+  "description": "Creates a new tab if there are no tabs open",
   "icons": {
 	"16": "icon-16.png",
 	"48": "icon-48.png",
