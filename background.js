@@ -6,7 +6,7 @@ chrome.tabs.query({currentWindow: true}, (tabs) => {
 
   if( tabs.length === 0 && count === 0){
 	count = 1;
-	chrome.tabs.create({ url: 'chrome-search://local-ntp/local-ntp.html', active: false, }, function(tab){
+	chrome.tabs.create({ url: 'chrome-search://local-ntp/local-ntp.html' }, function(tab){
 	  tabCreated = tab;
 	})
 	setTimeout(function(){ count = 0; }, 500);
